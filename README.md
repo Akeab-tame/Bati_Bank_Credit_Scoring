@@ -46,41 +46,41 @@ Credit scoring is a crucial process in financial services, quantifying the risk 
 
 **1. Task 1 - Understanding Credit Risk:**
 
- - Study credit risk concepts and definitions.
- - Review key references and guidelines (Basel II Capital Accord, credit risk articles).
+  - Study credit risk concepts and definitions.
+  - Review key references and guidelines (Basel II Capital Accord, credit risk articles).
 **2. Task 2 - Exploratory Data Analysis (EDA):**
 
- - Load the dataset and examine its structure.
- - Calculate summary statistics for numerical features.
- - Visualize distributions of numerical and categorical features.
- - Perform correlation analysis.
- - Identify and handle missing values.
- - Detect and address outliers.
+  - Load the dataset and examine its structure.
+  - Calculate summary statistics for numerical features.
+  - Visualize distributions of numerical and categorical features.
+  - Perform correlation analysis.
+  - Identify and handle missing values.
+  - Detect and address outliers.
 **3. Task 3 - Feature Engineering:**
 
- - Aggregate features like total, average, and standard deviation of transaction amounts per customer.
- - Extract temporal features such as transaction hour, day, month, and year.
- - Encode categorical variables using appropriate techniques.
- - Handle missing values through imputation or removal.
- - Normalize and standardize numerical features.
+  - Aggregate features like total, average, and standard deviation of transaction amounts per customer.
+  - Extract temporal features such as transaction hour, day, month, and year.
+  - Encode categorical variables using appropriate techniques.
+  - Handle missing values through imputation or removal.
+  - Normalize and standardize numerical features.
 **4. Task 4 - Default Estimator and WoE Binning:**
 
- - Develop a default estimator based on RFMS formalism.
- - Assign users into good and bad categories.
- - Implement WoE binning to transform categorical variables.
+  - Develop a default estimator based on RFMS formalism.
+  - Assign users into good and bad categories.
+  - Implement WoE binning to transform categorical variables.
 **5. Task 5 - Modeling:**
 
- - Split the dataset into training and testing sets.
- - Select and train multiple models.
- - Tune hyperparameters to optimize model performance.
- - Evaluate models using relevant metrics to select the best-performing model.
+  - Split the dataset into training and testing sets.
+  - Select and train multiple models.
+  - Tune hyperparameters to optimize model performance.
+  - Evaluate models using relevant metrics to select the best-performing model.
 
 **Deliverables**
-- Task 1: Report on understanding credit risk.
-- Task 2: Complete EDA and data visualization.
-- Task 3: Perform feature engineering.
-- Task 4: Develop default estimator and perform WoE binning.
-- Task 5: Train and evaluate models
+ - Task 1: Report on understanding credit risk.
+ - Task 2: Complete EDA and data visualization.
+ - Task 3: Perform feature engineering.
+ - Task 4: Develop default estimator and perform WoE binning.
+ - Task 5: Train and evaluate models
 This project leverages advanced data analysis and machine learning techniques to create a robust credit scoring model, enhancing the buy-now-pay-later service's effectiveness in assessing credit risk.
 
 # Author: Aklilu Tamene
