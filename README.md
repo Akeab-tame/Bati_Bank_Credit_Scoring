@@ -48,6 +48,7 @@ Credit scoring is a crucial process in financial services, quantifying the risk 
 
   - Study credit risk concepts and definitions.
   - Review key references and guidelines (Basel II Capital Accord, credit risk articles).
+
 **2. Task 2 - Exploratory Data Analysis (EDA):**
 
   - Load the dataset and examine its structure.
@@ -56,6 +57,7 @@ Credit scoring is a crucial process in financial services, quantifying the risk 
   - Perform correlation analysis.
   - Identify and handle missing values.
   - Detect and address outliers.
+
 **3. Task 3 - Feature Engineering:**
 
   - Aggregate features like total, average, and standard deviation of transaction amounts per customer.
@@ -63,11 +65,13 @@ Credit scoring is a crucial process in financial services, quantifying the risk 
   - Encode categorical variables using appropriate techniques.
   - Handle missing values through imputation or removal.
   - Normalize and standardize numerical features.
+
 **4. Task 4 - Default Estimator and WoE Binning:**
 
   - Develop a default estimator based on RFMS formalism.
   - Assign users into good and bad categories.
   - Implement WoE binning to transform categorical variables.
+
 **5. Task 5 - Modeling:**
 
   - Split the dataset into training and testing sets.
