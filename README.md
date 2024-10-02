@@ -8,47 +8,47 @@ As an Analytics Engineer at Bati Bank, I'm tasked with developing a Credit Scori
 Credit scoring is a crucial process in financial services, quantifying the risk associated with lending to individuals. Traditional credit scoring models rely on historical data and statistical techniques to predict the likelihood of default. The buy-now-pay-later service aims to provide customers with credit to purchase products, necessitating a robust credit scoring system to minimize financial risk. This project encompasses data analysis, feature engineering, model development, and evaluation to create a reliable credit scoring model.
 
 # Objective
-- Define a proxy variable to categorize users as high risk (bad) or low risk (good).
-- Identify observable features that are good predictors of default.
-- Develop a model to assign risk probability for new customers.
-- Create a credit scoring model from risk probability estimates.
-- Predict the optimal loan amount and duration for each customer.
+  - Define a proxy variable to categorize users as high risk (bad) or low risk (good).
+  - Identify observable features that are good predictors of default.
+  - Develop a model to assign risk probability for new customers.
+  - Create a credit scoring model from risk probability estimates.
+  - Predict the optimal loan amount and duration for each customer.
 
 # Methodologies
 
 1. Exploratory Data Analysis (EDA):
 
- - Understand the dataset structure.
- - Compute summary statistics.
- - Visualize numerical and categorical feature distributions.
- - Analyze feature correlations.
- - Identify missing values and outliers.
+  - Understand the dataset structure.
+  - Compute summary statistics.
+  - Visualize numerical and categorical feature distributions.
+  - Analyze feature correlations.
+  - Identify missing values and outliers.
 2. Feature Engineering:
 
- - Create aggregate features (e.g., total transaction amount, average transaction amount).
- - Extract features (e.g., transaction hour, day, month).
- - Encode categorical variables using one-hot and label encoding.
- - Handle missing values through imputation or removal.
- - Normalize/standardize numerical features.
+  - Create aggregate features (e.g., total transaction amount, average transaction amount).
+  - Extract features (e.g., transaction hour, day, month).
+  - Encode categorical variables using one-hot and label encoding.
+  - Handle missing values through imputation or removal.
+  - Normalize/standardize numerical features.
 3. Default Estimator and WoE Binning:
 
- - Construct a default estimator using RFMS (Recency, Frequency, Monetary, Seasonality) formalism.
- - Classify users as good or bad based on RFMS scores.
- - Perform Weight of Evidence (WoE) binning.
+  - Construct a default estimator using RFMS (Recency, Frequency, Monetary, Seasonality) formalism.
+  - Classify users as good or bad based on RFMS scores.
+  - Perform Weight of Evidence (WoE) binning.
 4. Modeling:
 
- - Split the data into training and testing sets.
- - Select models (e.g., Logistic Regression, Decision Trees, Random Forest, Gradient Boosting Machines).
- - Train and tune models using techniques like Grid Search and Random Search.
- - Evaluate models using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC.
+  - Split the data into training and testing sets.
+  - Select models (e.g., Logistic Regression, Decision Trees, Random Forest, Gradient Boosting Machines).
+  - Train and tune models using techniques like Grid Search and Random Search.
+  - Evaluate models using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC.
 
 # Task Steps
 
-1. Task 1 - Understanding Credit Risk:
+**1. Task 1 - Understanding Credit Risk:**
 
  - Study credit risk concepts and definitions.
  - Review key references and guidelines (Basel II Capital Accord, credit risk articles).
-2. Task 2 - Exploratory Data Analysis (EDA):
+**2. Task 2 - Exploratory Data Analysis (EDA):**
 
  - Load the dataset and examine its structure.
  - Calculate summary statistics for numerical features.
@@ -56,19 +56,19 @@ Credit scoring is a crucial process in financial services, quantifying the risk 
  - Perform correlation analysis.
  - Identify and handle missing values.
  - Detect and address outliers.
-3. Task 3 - Feature Engineering:
+**3. Task 3 - Feature Engineering:**
 
  - Aggregate features like total, average, and standard deviation of transaction amounts per customer.
  - Extract temporal features such as transaction hour, day, month, and year.
  - Encode categorical variables using appropriate techniques.
  - Handle missing values through imputation or removal.
  - Normalize and standardize numerical features.
-4. Task 4 - Default Estimator and WoE Binning:
+**4. Task 4 - Default Estimator and WoE Binning:**
 
  - Develop a default estimator based on RFMS formalism.
  - Assign users into good and bad categories.
  - Implement WoE binning to transform categorical variables.
-5. Task 5 - Modeling:
+**5. Task 5 - Modeling:**
 
  - Split the dataset into training and testing sets.
  - Select and train multiple models.
